@@ -1,0 +1,19 @@
+{
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "**/exclude.*"
+    ],
+    "compilerOptions": {
+        "outDir": "dist",
+        "target": "ES2022",
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "esModuleInterop": true,
+        "strict": true,
+        "typeRoots": [
+            "src/types"
+        ]
+    }
+}
